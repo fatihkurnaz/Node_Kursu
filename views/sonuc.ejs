@@ -1,0 +1,8 @@
+<h1>Ara Sayfası</h1>
+
+<!-- <%= Ejs_Veri["results"][0]["name"] %> -->
+<% Ejs_Veri["results"].forEach(function(sonuc){%>
+<li><%= sonuc["name"] %></li>
+<%})%>
+
+<a href="/">Tekrar Ara!</a>
