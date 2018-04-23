@@ -39,4 +39,4 @@ app.get("/sonuc", (req, res)=> {
 
 
 
-app.listen(3000);
+app.listen(process.env.PORT);//PROCESS in çalıştığı yerin atadığı port numarasını dinle
